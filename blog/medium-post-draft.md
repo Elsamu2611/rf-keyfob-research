@@ -1,6 +1,6 @@
 # Breaking Into Cars With a $15 SDR: RF Replay Attack Research on 433 MHz Key Fobs
 
-**By Usal Winodith (wincr4ck) — Cyber Security Researcher, HackTheBox Top 2 Sri Lanka**
+**By Usal Winodith (wincr4ck) — Cyber Security Researcher**
 
 ---
 

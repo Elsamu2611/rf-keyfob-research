@@ -1,0 +1,46 @@
+# RF Keyfob Research Project - Python Dependencies
+
+# ============================================================================
+# REQUIRED DEPENDENCIES
+# ============================================================================
+
+# Core scientific computing and signal processing
+numpy>=1.21.0                # Numerical array operations and math functions
+scipy>=1.7.0                 # Advanced signal processing, filtering, and DSP algorithms
+matplotlib>=3.4.0            # Data visualization and plotting for RF analysis
+
+# Terminal UI and output formatting
+rich>=10.0.0                 # Beautiful, colored terminal output for better readability
+
+# Built-in module (no installation needed, listed for reference)
+# argparse                   # Command-line argument parsing (included in Python stdlib)
+
+# ============================================================================
+# OPTIONAL DEPENDENCIES - Software Defined Radio (SDR)
+# ============================================================================
+
+# Uncomment to enable RTL-SDR support for RF capture from USB dongles
+# pyrtlsdr>=0.2.9            # Interface for RTL-SDR USB dongles (inexpensive RF receivers)
+
+# ============================================================================
+# OPTIONAL DEPENDENCIES - Hardware Transmission (TX)
+# ============================================================================
+
+# Uncomment to enable HackRF One support for RF transmission/jamming research
+# pyhackrf2>=0.0.12          # Interface for HackRF One SDR transceiver (requires device)
+
+# ============================================================================
+# INSTALLATION INSTRUCTIONS
+# ============================================================================
+
+# Install all required dependencies:
+#   pip install -r requirements.txt
+
+# Install with SDR support:
+#   pip install -r requirements.txt pyrtlsdr
+
+# Install with HackRF support:
+#   pip install -r requirements.txt pyhackrf2
+
+# Install with all optional features:
+#   pip install -r requirements.txt pyrtlsdr pyhackrf2
